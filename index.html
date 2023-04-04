@@ -1,179 +1,275 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="zxx" class="uk-background-white dark:uk-background-gray-100 dark:uk-text-gray-20 uk-dark">
    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta charset="utf-8">
-      <meta name="viewport" content="initial-scale=1.0, width=device-width">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>naaltech - Nevzat Ayaz Anadolu Lisesi Teknoloji Atölyesi</title>
-      <meta name="description" content="naaltech, 2022 yılında Nevzat Ayaz Anadolu Lisesi'nde öğrenciler tarafından okul içerisinde yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemek için kurulmuş bir kulüptür. Kulüp resmi olarak Nevzat Ayaz Anadolu Lisesi altında çalışmaktadır, ayrıca dünya üzerindeki teknoloji kulüplerini destekleyen 'The Hack Foundation'a üyedir.">
+      <meta name="description" content="naaltech, 2022 yılında Nevzat Ayaz Anadolu Lisesi'nde öğrenciler tarafından okul içerisinde yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemek için kurulmuş bir kulüptür.">
       <link rel="icon" href="favicon.ico">
       <meta name="theme-color" content="#ffffff">
       <meta name="keywords" content="naaltech, naal, teknoloji, nevzatayazal, atölye, kulüp, nevzat ayaz anadolu lisesi, nevzatayaz, nevzat ayaz">
       <meta property="og:type" content="website">
       <meta name="og:title" property="og:title" content="naaltech - Nevzat Ayaz Anadolu Lisesi Teknoloji Atölyesi">
-      <meta name="og:description" property="og:description" content="naaltech, 2022 yılında Nevzat Ayaz Anadolu Lisesi'nde öğrenciler tarafından okul içerisinde yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemek için kurulmuş bir kulüptür. Kulüp resmi olarak Nevzat Ayaz Anadolu Lisesi altında çalışmaktadır, ayrıca dünya üzerindeki teknoloji kulüplerini destekleyen 'The Hack Foundation'a üyedir.">
+      <meta name="og:description" property="og:description" content="naaltech, 2022 yılında Nevzat Ayaz Anadolu Lisesi'nde öğrenciler tarafından okul içerisinde yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemek için kurulmuş bir kulüptür. ">
       <meta property="og:url" content="https://naaltech.com.tr/">
       <link rel="icon" type="image/png" href="favicon.ico">
-      <link rel="apple-touch-icon" href="favicon.ico">
-      <link rel="canonical" href="https://naaltech.com.tr/">
-      <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/animate.min.css">
-      <link rel="stylesheet" href="css/magnific-popup.css">
-      <link rel="stylesheet" href="fontawesome/css/all.min.css">
-      <link rel="stylesheet" href="css/dripicons.css">
-      <link rel="stylesheet" href="css/slick.css">
-      <link rel="stylesheet" href="css/default.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="preload" href=" assets/fonts/brand-icons/brand-icons.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href=" assets/fonts/unicons/Unicons.woff?lkolxg" as="font" type="font/woff" crossorigin>
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css" as="style">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" as="style">
+      <link rel="preload" href=" assets/js/uikit.min.js" as="script">
+      <link rel="preload" href=" assets/js/uikit-components.js" as="script">
+      <link rel="preload" href=" assets/js/jquery.min.js" as="script">
+      <link rel="preload" href=" assets/js/swiper-bundle.min.js" as="script">
+      <link rel="preload" href=" assets/js/feather.min.js" as="script">
+      <link rel="preload" href=" assets/js/typed.min.js" as="script">
+      <link rel="preload" href=" assets/js/anime.min.js" as="script">
+      <link rel="preload" href=" assets/js/app.js" as="script">
+      <link rel="preload" href=" assets/js/data-attr-helper.js" as="script">
+      <link rel="preload" href=" assets/js/swiper-helper.js" as="script">
+      <link rel="preload" href=" assets/js/typed-helper.js" as="script">
+      <link rel="preload" href=" assets/js/anime-helper.js" as="script">
+      <script src=" assets/js/app-head.js"></script>
+      <link rel="stylesheet" href=" assets/css/theme/main.min.css">
+      <script src=" assets/js/uikit.min.js"></script>
+      <script src=" assets/js/uikit-components.js"></script>
    </head>
-   <body>
-      <header id="home" class="header-area">
-         <div id="header-sticky" class="menu-area">
-            <div class="container">
-               <div class="second-menu">
-                  <div class="row align-items-center">
-                     <div class="col-xl-3 col-lg-3">
-                        <div class="logo">
-                           <a href="/"><img src="img/logo/logo.png" alt="logo"></a>
+   <body class="uni-body">
+      <div id="uni_mobile_menu" class="uni-mobile-menu uk-offcanvas" data-uk-offcanvas="mode: push; overlay: true; flip: true; selPanel: .uk-offcanvas-bar-panel;">
+         <div class="uk-offcanvas-bar-panel uk-panel dark:uk-background-gray-100">
+            <div class="uni-mobile-menu-wrap uk-flex-column uk-flex-between" data-uk-height-viewport="offset-bottom: true;">
+               <div class="uni-mobile-menu-content">
+                  <header class="uk-card uk-card-2xsmall uk-flex-middle uk-flex-between">
+                     <div class="uk-flex-1">
+                        <button aria-label="Close Menu" class="uk-offcanvas-close uk-button uk-button-small uk-button-icon uk-button-default uk-button-outline uk-radius-circle" type="button">
+                        <i class="uk-icon-small" data-feather="arrow-left"></i>
+                        </button>
+                     </div>
+                     <div class="uk-flex-1"></div>
+                  </header>
+                  <hr class="uk-margin-remove">
+                  <div class="uk-card uk-card-small">
+                     <div class="uk-panel">
+                        <ul class="uk-nav uk-nav-default">
+                           <li><a href="/">Anasayfa</a></li>
+                           <li><a href="https://bank.hackclub.com/naaltech">Şeffaf Banka Hesabı</a></li>
+                           <li><a href="/legal">Dökümanlar</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrap uk-overflow-hidden">
+         <header class="uni-header uk-position-top">
+            <div class="uni-header-navbar" data-uk-sticky="top: 70; show-on-up: false; animation: uk-animation-slide-top">
+               <div class="uk-container">
+                  <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                     <div class="uk-navbar-top">
+                        <div class="uk-navbar-left uk-flex-1">
+                           <a class="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove" href="/"> <img class="uk-visible dark:uk-hidden" width="120" src=" assets/images/naaltech.png" alt="naaltech" loading="lazy"> <img class="uk-hidden dark:uk-visible" width="120" src=" assets/images/naaltech.png" alt="Nerko" loading="lazy"> </a>
+                        </div>
+                        <div class="uk-navbar-center"></div>
+                        <div class="uk-navbar-right uk-flex-1 uk-flex-right">
+                           <ul class="uk-navbar-nav dark:uk-text-gray-10 uk-visible@m" data-uk-scrollspy-nav="closest: li; scroll: true; offset: 40" data-uk-navbar-bound>
+                              <li><a href="/">Anasayfa</a></li>
+                              <li><a href="https://bank.hackclub.com/naaltech">Şeffaf Banka Hesabı</a></li>
+                              <li><a href="/legal">Dökümanlar</a></li>
+                           </ul>
+                           <div class="uk-navbar-item uk-hidden@m">
+                              <a href="#uni_mobile_menu" data-uk-toggle>
+                              <span class="uk-icon uk-icon-medium material-icons">menu</span>
+                              </a>
+                           </div>
                         </div>
                      </div>
-                     <select class="selectpicker" data-width="fit" onChange="window.location.href=this.value">
-                        <option value="https://naaltech.com.tr/">Turkish</option>
-                        <option value="https://naaltech.com/">English</option>
-                      </select>
-                     <div class="col-xl-6 col-lg-9">
-                        <div class="responsive"><i class="icon dripicons-align-right"></i></div>
-                        <div class="main-menu text-right text-xl-center">
-                           <nav id="mobile-menu">
-                              <ul>
-                                 <li class="active"><a href="/">Ana Sayfa</a></li>
-                                 <li class=""><a href="https://bank.hackclub.com/naaltech">Şeffaf Banka Hesabı</a></li>
-                                 <li class=""><a href="legal">Dökümanlar</a></li>
-                                 <li class=""><a href="team">Takım</a></li>
-                              </ul>
-                           </nav>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <div class="uni-hero uk-section uk-padding-remove uk-panel uk-overflow-hidden">
+            <div class="uk-position-top" data-uk-height-viewport="">
+               <div class="uk-position-cover uk-background-cover uk-opacity-20" data-src=" assets/images/collection-grid.png" data-uk-img></div>
+            </div>
+            <div class="uk-position-top uk-position-z-index-negative uk-overflow-hidden uk-blend-overlay" data-uk-height-viewport="">
+               <img class="uk-position-top-left uk-position-fixed uk-blur-large" style="left: -4%; top: -4%" width="500" src=" assets/images/gradient-circle.svg" alt="Circle">
+               <img class="uk-position-bottom-right uk-position-fixed uk-blur-large" style="right: -4%; bottom: -4%" width="500" src=" assets/images/gradient-circle.svg" alt="Circle">
+            </div>
+            <div class="uk-container">
+               <div class="uk-section uk-flex-center uk-flex-middle" data-uk-height-viewport="offset-top: true;">
+                  <div class="uk-card uk-flex-center uk-text-center">
+                     <div class="uk-panel uk-width-2xlarge@m uk-position-z-index">
+                        <h2 class="uk-h2 uk-heading-d1@m">Nevzat Ayaz Anadolu Lisesi Teknoloji Atölyesi</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="uni_about" class="uni-about uk-section uk-section-xlarge@m uk-panel">
+            <div class="uk-container">
+               <div class="uk-panel">
+                  <div class="uk-grid uk-grid-medium uk-grid-2xlarge@m uk-child-width-1-2@m uk-flex-middle" data-uk-grid="">
+                     <div>
+                        <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                           <canvas width="560" height="560"></canvas>
+                           <img src=" assets/images/collection.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="uk-panel">
+                           <h3 class="uk-h3 uk-h2@s uk-heading-d2@m uk-text-uppercase"><span class="uk-text-gradient">NAALTECH</span></h3>
+                           <p class="uk-text-large">NaalTECH, Teknoloji Ekibi adıyla okulumuz Bilim Atölyesi (naalbilim) adı altına 2020 yılında kurulmuş, 2022 yılında ise Bilim Atölyesinden ayrılayarak Teknoloji Atölyesi olarak ayrı bir atölye olmuştur. Amacımız; okul içerisinde ve dışında; yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemektir! Resmi olarak okulumuz Nevzat Ayaz Anadolu Lisesi adı altında çalışmalarımızı sürdürüyoruz.</p>
+                           <p class="uk-text-large">Atölyemiz aynı zamanda The Hack Foundation'nın projesi Hack Club'a üye olup, "Hack Club Bank" tarafından mali olarak desteklenmektedir.</p>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </header>
-
-      <main>
-         <section id="parallax" class="slider-area slider-bg second-slider-bg slider-bg2 d-flex align-items-center justify-content-center fix" style="background-image:url(img/home_2_slider_img.jpg)">
-            <div class="slider-shape ss-one layer" data-depth="0.10"><img src="img/doddle_6.png" alt="shape"></div>
-            <div class="slider-shape ss-two layer" data-depth="0.30"><img src="img/doddle_8.png" alt="shape"></div>
-            <div class="slider-shape ss-three layer" data-depth="0.40"><img src="img/doddle_9.png" alt="shape"></div>
-            <div class="slider-shape ss-four layer" data-depth="0.60"><img src="img/doddle_7.png" alt="shape"></div>
-            <div class="slider-active">
-               <div class="single-slider">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-12 text-center">
-                           <div class="slider-content second-slider-content">
-                              <h2 data-animation="fadeInUp animated" data-delay=".4s">Nevzat Ayaz Anadolu Lisesi Teknoloji Atölyesi</h2>
-                           </div>
+         <img class="uk-width-2xsmall uk-flex-center uk-margin-auto uk-margin-medium uk-margin-large@m" src=" assets/images/divider-01.svg" alt="Divider">
+         <div class="uni-brands uk-section uk-section-xlarge@m uk-panel uk-overflow-hidden" data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;">
+            <div class="uk-container">
+               <div class="uk-panel uk-text-center dark:uk-text-white">
+                  <header class="uk-panel uk-flex-center uk-flex-middle uk-text-center">
+                     <span class="uk-text-overline uk-text-bold">İş Birlikleri & Sponsorlar</span>
+                  </header>
+                  <div class="uk-grid uk-child-width-1-2 uk-child-width-expand@m uk-flex-middle uk-flex-center uk-grid uk-margin-medium-top" data-uk-grid>
+                     <div>
+                        <div class="uk-panel uk-overflow-hidden uk-card uk-card-small uk-card-medium@m uk-card-border uk-box-shadow-xsmall uk-radius-medium uk-radius-large@m dark:uk-background-white-5">
+                           <img class="uk-width-xsmall uk-text-gray-60 dark:uk-text-gray-20" src=" assets/images/sponsors/hcb-logo-outlined-white.png" alt="Hack Club Bank" data-uk-svg>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="uk-panel uk-overflow-hidden uk-card uk-card-small uk-card-medium@m uk-card-border uk-box-shadow-xsmall uk-radius-medium uk-radius-large@m dark:uk-background-white-5">
+                           <img class="uk-width-xsmall uk-text-gray-60 dark:uk-text-gray-20" style="width: 70px;height: 50px;" src=" assets/images/sponsors/vercel-logotype-light.png" alt="Vercel" data-uk-svg>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="uk-panel uk-overflow-hidden uk-card uk-card-small uk-card-medium@m uk-card-border uk-box-shadow-xsmall uk-radius-medium uk-radius-large@m dark:uk-background-white-5">
+                           <img class="uk-width-xsmall uk-text-gray-60 dark:uk-text-gray-20" style="width: 70px;height: 50px;" src=" assets/images/sponsors/thumbnail_PLM_Logo.png" alt="PLM" data-uk-svg>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-
-         <section id="about" class="about-area about-p pt-120 pb-120 p-relative">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-lg-6">
-                     <div class="about-content s-about-content pl-30">
-                        <div class="about-title second-atitle">
-                           <span class="wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".3s">HAKKIMIZDA</span>
-                           <h2 class="wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".4s">Biz kimiz?</h2>
-                        </div>
-                        <div class="wow fadeInDown animated" data-animation="fadeInUp animated" data-delay=".2s">
-                           <p>Biz Teknoloji ekibi olarak okulumuzun Bilim Atölyesi adı altında 2020 yılında kurulduk, 2022 yılında ise Bilim Atölyesinden ayrılarak Teknoloji Atölyesi olarak ayrı bir atölye olduk! Okul içerisinde ve dışında; yazılım, robotik ve siber güvenlik alanlarında faaliyetler düzenlemeyi amaçlıyoruz! Resmi olarak okulumuz Nevzat Ayaz Anadolu Lisesi adı altında çalışmalarımızı sürdürüyoruz.</p>
-                           <p>Atölyemiz aynı zamanda The Hack Foundation'nın projesi Hack Club'a üye olup, "Hack Club Bank" tarafından finansal olarak desteklenmektedir. ABD devletinin 501c3 sınıfı kuruluşlara verdiği tüm haklara sahip olmakla birlikte yurt içinde ve yurt dışında resmi olarak ayrıcalıklarımız bulunmaktadır. </p>
-                           <a href="https://tally.so/r/meMMLk" class="btn mt-20"> Aramıza katıl</a>
-                        </div>
-                     </div>
+         </div>
+         <div id="uni_faq" class="uni-faq uk-section uk-section-large@m uk-panel uk-overflow-hidden uk-padding-2xlarge-bottom@m">
+            <div class="uk-container">
+               <header class="uk-grid-xsmall uk-flex-center uk-flex-middle uk-text-center uk-child-width-auto@m uk-grid" data-uk-grid>
+                  <div class="uk-panel">
+                     <h2 class="uk-h3 uk-h1@m">SSS</h2>
                   </div>
-                  <div class="col-lg-6">
-                     <div class="s-video-wrap" style="background-image:url(img/video_bg_2.jpg)">
-                        <div class="s-video-content">
-                           <a href="https://www.youtube.com/watch?v=-sxRdKtKNa0" class="popup-video mb-50"><i class="fas fa-play"></i></a>
+               </header>
+               <div class="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
+                  <ul class="uk-card uk-card-small uk-card-large@m uk-radius uk-radius-large@m uk-width-2xlarge@m uk-margin-auto uk-box-shadow-xsmall dark:uk-background-white-5" data-uk-accordion="collapsible: false">
+                     <li>
+                        <a class="uk-accordion-title uk-h5@m" href="#">Katılmak için ön bilgi gerekiyor mu?</a>
+                        <div class="uk-accordion-content uk-padding-small-bottom">
+                           <p class="uk-text-small uk-text-large@m uk-text-muted">Hayır, teknolojiye merakı olan herkes naaltech'e katılabilir. Dönem içerisinde verdiğimiz programlama eğitimleri ile 0'dan başlayan bir kişiye bile yıl sonunda en az bir programlama dili hakkında bilgi sahibi olmasını amaçlıyoruz.</p>
                         </div>
-                     </div>
+                     </li>
+                     <li>
+                        <a class="uk-accordion-title uk-h5@m" href="#">Okul dışından katılımcı alıyor musunuz?</a>
+                        <div class="uk-accordion-content uk-padding-small-bottom">
+                           <p class="uk-text-small uk-text-large@m uk-text-muted">Maalesef ki Ümraniye Nevzat Ayaz Anadolu Lisesi öğrencileri dışında katılımcı alamıyoruz. Fakat yaptığımız online etkinliklerden bir kısmı herkese açık, eğer katılım sağlamak istersen @naaltech Instagram hesabımızı takip ederek, etkinliklerden haberdar olabilirsin.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a class="uk-accordion-title uk-h5@m" href="#">Başvuru form çok zor!</a>
+                        <div class="uk-accordion-content uk-padding-small-bottom">
+                           <p class="uk-text-small uk-text-large@m uk-text-muted">Başvuru formu bilgi ve seviye ölçme amaçlıdır. Sorulara "yok" cevabını verebilirsiniz.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a class="uk-accordion-title uk-h5@m" href="#">Dönem içerisinde katıldığınız yarışmalar oluyor mu?</a>
+                        <div class="uk-accordion-content uk-padding-small-bottom">
+                           <p class="uk-text-small uk-text-large@m uk-text-muted">Dönem içerisinde Teknofest ve Tübitak gibi ulusal yarışmalara katılmakla birlikte, uluslarası online yarışmalarada katılım sağlıyoruz.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a class="uk-accordion-title uk-h5@m" href="#">Hack Club nedir? "Hack" başımıza iş açmasın?</a>
+                        <div class="uk-accordion-content uk-padding-small-bottom">
+                           <p class="uk-text-small uk-text-large@m uk-text-muted">Hack Club, Amerika/VT merkezli bir dünya üzerindeki teknoloji kulüplerini koordine eden kâr amacı gütmeyen bir kuruluştur. Liseler arasında "hackathon" (programlama yarışmaları) kültürünün oluşmasında büyük bir yeri olmakla birlikte; Sprig, SineRider, Some Assembly Required gibi uluslarası projeleri bulunmaktadır.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="uni-cta uk-section uk-panel uk-overflow-hidden">
+            <div class="uk-container">
+               <div class="uk-card uk-flex-center uk-text-center">
+                  <div class="uk-panel uk-width-2xlarge@m uk-position-z-index">
+                     <img class="uk-position-top-left uni-animation-bounce uk-text-primary" width="24" src=" assets/images/objects/star-01.svg" alt="star" data-uk-svg style="top: 0%; left: -16%">
+                     <img class="uk-position-bottom-right uni-animation-bounce uk-text-primary" width="24" src=" assets/images/objects/star-01.svg" alt="star" data-uk-svg style="bottom: 16%; right: -8%">
+                     <img class="uk-position-top-right uni-animation-bounce uk-text-secondary" width="40" src=" assets/images/objects/star-01.svg" alt="star" data-uk-svg style="top: 0%; right: -16%">
+                     <img class="uk-position-bottom-left uni-animation-bounce uk-text-secondary" width="48" src=" assets/images/objects/star-01.svg" alt="star" data-uk-svg style="bottom: 16%; left: -8%">
+                     <h2 class="uk-h3 uk-heading-d1@m uk-text-uppercase">
+                        ARAMIZA <br>
+                        <span class="uk-text-gradient">KATIL</span>
+                     </h2>
+                     <a href="https://tally.so/r/meMMLk" class="uk-button uk-button-small uk-button-large@m uk-button-gradient uk-margin-small-top uk-margin-large-top@m">Başvuru Formu</a>
                   </div>
                </div>
             </div>
-         </section>
-         <section class="sponsors services-bg pt-113 fix">
-            <div class="container">
-               <div class="section-t team-t paroller" data-paroller-factor="0.15" data-paroller-factor-lg="0.15" data-paroller-factor-md="0.15" data-paroller-factor-sm="0.15" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                  <h2>Sponsors</h2>
-               </div>
-               <div class="row">
-                  <div class="col-lg-12 col-md-12 text-center">
-                     <ul class="wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
-                        <li><a href="https://hackclub.com"><img src="img/sponsors_1.png" alt="img"></a></li>
-                        <li><a href="https://hackclub.com/bank/"><img src="img/sponsors_2.png" alt="img"></a></li>
-                        <li><a href="https://vercel.com/"><img src="img/sponsors_4.png" alt="img"></a></li>
-                     </ul>
+         </div>
+      </div>
+      <footer class="uni-footer uk-section uk-section-xlarge@m uk-panel">
+         <div class="uk-container">
+            <div class="uk-panel">
+               <div class="uk-grid uk-flex-center uk-text-center" data-uk-grid>
+                  <div class="uk-width-large@m">
+                     <div class="uk-panel uk-position-z-index">
+                        <ul class="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-70">
+                           <li>
+                              <a href="https://www.instagram.com/naaltech/"><span class="uk-icon uk-icon-large@m unicon-logo-instagram"></span></a>
+                           </li>
+                           <li>
+                              <a href="https://github.com/naaltech"><span class="uk-icon uk-icon-large@m unicon-logo-github"></span></a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/company/naaltech/"><span class="uk-icon uk-icon-large@m unicon-logo-linkedin"></span></a>
+                           </li>
+                           <li>
+                              <a href="https://twitter.com/naalteknoloji"><span class="uk-icon uk-icon-large@m unicon-logo-twitter"></span></a>
+                           </li>
+                           <li>
+                              <a href="https://discord.gg/wT4PYqpXpN"><span class="uk-icon uk-icon-large@m unicon-logo-discord"></span></a>
+                           </li>
+                        </ul>
+                     </div>
                   </div>
                </div>
-            </div>
-         </section>
-      </main>
-
-      <footer class="footer-bg footer-p" style="background-image:url(img/footer_bg_img.jpg);background-size: cover;">
-         <div class="footer-top">
-            <div class="container">
-               <div class="row justify-content-between">
-                  <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
-                     <div class="footer-widget pt-120 mb-30">
-                        <div class="logo mb-35">
-                           <a href="#"><img src="img/footer_logo.png" alt="logo"></a>
-                        </div>
-                        <div class="footer-text mb-20">
-                           <p>Nevzat Ayaz Anatolian High School Hack Club is fiscally sponsored by Hack Club Bank, a project by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
-                           <br><a href="https://bank.hackclub.com/donations/start/naaltech" class="btn">Bağış Yap</a>
-                        </div>
-                        
-                        <div class="footer-social">
-                           <a href="https://www.instagram.com/naaltech/"><i class="fab fa-instagram"></i></a>  
-                           <a href="https://github.com/naaltech"><i class="fab fa-github"></i></a>
-                           <a href="https://www.linkedin.com/company/naaltech/"><i class="fab fa-linkedin"></i></a>                                  
-                           <a href="https://twitter.com/naalteknoloji"><i class="fab fa-twitter"></i></a>
-                           <a href="https://discord.gg/wT4PYqpXpN"><i class="fab fa-discord"></i></a>
-                        </div>
+               <div class="uk-panel uk-text-small uk-margin-medium-top">
+                  <div class="uk-grid uk-child-width-1-1@m uk-flex-center uk-text-center" data-uk-grid>
+                     <div>
+                        <ul class="uk-subnav uk-text-muted uk-flex-center">
+                           <li><a href="https://bank.hackclub.com/donations/start/naaltech">Bağış Yap</a></li>
+                        </ul>
+                     </div>
+                     <div>
+                        <p class="uk-text-muted">Nevzat Ayaz Anatolian High School Hack Club is fiscally sponsored by Hack Club Bank, a project by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
+                        </p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </footer>
-
-      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-      <script src="js/vendor/jquery-1.12.4.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/one-page-nav-min.js"></script>
-      <script src="js/slick.min.js"></script>
-      <script src="js/ajax-form.js"></script>
-      <script src="js/paroller.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script src="js/parallax.min.js"></script>
-      <script src="js/jquery.waypoints.min.js"></script>
-      <script src="js/jquery.countdown.min.js"></script>
-      <script src="js/jquery.counterup.min.js"></script>
-      <script src="js/jquery.scrollUp.min.js"></script>
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <script src="js/element-in-view.js"></script>
-      <script src="js/isotope.pkgd.min.js"></script>
-      <script src="js/imagesloaded.pkgd.min.js"></script>
-      <script src="js/main.js"></script>
+      <script defer src=" assets/js/jquery.min.js"></script>
+      <script defer src=" assets/js/swiper-bundle.min.js"></script>
+      <script defer src=" assets/js/feather.min.js"></script>
+      <script defer src=" assets/js/typed.min.js"></script>
+      <script defer src=" assets/js/anime.min.js"></script>
+      <script defer src=" assets/js/app.js"></script>
+      <script defer src=" assets/js/data-attr-helper.js"></script>
+      <script defer src=" assets/js/swiper-helper.js"></script>
+      <script defer src=" assets/js/typed-helper.js"></script>
+      <script defer src=" assets/js/anime-helper.js"></script>
+      <script>
+         // Schema toggle via URL
+         localStorage.setItem("darkMode", "1");
+      </script>
    </body>
 </html>
